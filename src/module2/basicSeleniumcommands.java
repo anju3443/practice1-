@@ -1,5 +1,8 @@
 package module2;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class basicSeleniumcommands {
 
 	public static void main(String[] args) {
@@ -13,7 +16,7 @@ public class basicSeleniumcommands {
 		//Initialize/instantiate/open browser
 		//chrome browser
 		system.Setproperty("webdriver.chrome.driver","C:\\Selenium Training\\Installation stuff\\Driver")
-		webdriver driver = new chromedriver();
+		WebDriver driver = new ChromeDriver();
 		
 		//close and quit command
 		driver.close();//this will close the current active window
